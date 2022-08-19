@@ -40,7 +40,7 @@ h1 {
    left: 0;
    width: 100%;
    height: 45px;
-   background: rgb(57, 90, 143);
+   background: rgb(214, 131, 54);
    font-family: 'Courier New', Courier, monospace;
 }
 
@@ -62,7 +62,7 @@ li a {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 li a:hover {
-   background: hsl(209, 73%, 65%);
+   background: hsl(240, 4%, 5%);
    color: black;
 }
 nav ul{
@@ -93,17 +93,20 @@ li a:hover{
    position: absolute ;
    width: 100%;
    height: 200px;
-   background: rgb(226, 179, 118);
+   background: rgb(255, 255, 255);
    top: 50px;
    left: 0;
-   border-color: aquamarine;
+   border-color: rgb(15, 15, 15);
    border-width: 10px;
    border-style: solid;
    margin: 20px?;
    display: flex;
    justify-content:center:
 }
-.rodape {
+.rodape{
+   position: relative;
+   width: 100%;
+   display: flex;
    position: absolute;
    bottom: 0;
    background-color: #000000;
@@ -119,3 +122,4 @@ li a:hover{
    position: absolute;
    top: 45px;
 }
+.rodape
